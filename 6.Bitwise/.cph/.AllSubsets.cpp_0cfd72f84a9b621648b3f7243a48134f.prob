@@ -1,0 +1,1 @@
+{"name":"Local: AllSubsets","url":"d:\\Programming\\C++\\Prog\\6.Bitwise\\AllSubsets.cpp","tests":[{"id":1631124930397,"input":"3\n1 2 3","output":"1 \n2 \n1 2 \n3 \n1 3 \n2 3 \n1 2 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\6.Bitwise\\AllSubsets.cpp","group":"local","local":true}

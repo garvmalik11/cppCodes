@@ -1,0 +1,1 @@
+{"name":"Local: TransposeMatrix","url":"d:\\Programming\\C++\\Prog\\4.1 2D Arrays\\TransposeMatrix.cpp","tests":[{"id":1628879873074,"input":"3 3\n1 2 3\n4 5 6\n7 8 9\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\4.1 2D Arrays\\TransposeMatrix.cpp","group":"local","local":true}

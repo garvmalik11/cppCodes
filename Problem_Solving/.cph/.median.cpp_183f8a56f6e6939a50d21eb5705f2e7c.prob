@@ -1,0 +1,1 @@
+{"name":"Local: median","url":"d:\\Programming\\C++\\Prog\\Problem_Solving\\median.cpp","tests":[{"id":1646069204363,"input":"7\n0 1 2 4 6 5 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\Problem_Solving\\median.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: kthlargest","url":"d:\\Programming\\C++\\Prog\\3. FUNCTIONS\\kthlargest.cpp","tests":[{"id":1661154478373,"input":"7\n1 23 12 9 30 2 50\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\3. FUNCTIONS\\kthlargest.cpp","group":"local","local":true}

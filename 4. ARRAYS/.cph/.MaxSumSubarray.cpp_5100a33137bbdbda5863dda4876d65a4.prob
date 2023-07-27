@@ -1,0 +1,1 @@
+{"name":"Local: MaxSumSubarray","url":"d:\\Programming\\C++\\Prog\\4. ARRAYS\\MaxSumSubarray.cpp","tests":[{"id":1628278798152,"input":"4\n-1 4 7 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\4. ARRAYS\\MaxSumSubarray.cpp","group":"local","local":true}

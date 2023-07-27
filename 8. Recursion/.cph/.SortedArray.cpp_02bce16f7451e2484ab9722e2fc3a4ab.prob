@@ -1,0 +1,1 @@
+{"name":"Local: SortedArray","url":"d:\\Programming\\C++\\Prog\\8. Recursion\\SortedArray.cpp","tests":[{"id":1632582403365,"input":"7\n1 2 3 1 2 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\8. Recursion\\SortedArray.cpp","group":"local","local":true}

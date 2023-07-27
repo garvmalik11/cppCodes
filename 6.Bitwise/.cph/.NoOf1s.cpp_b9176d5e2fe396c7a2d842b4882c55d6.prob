@@ -1,0 +1,1 @@
+{"name":"Local: NoOf1s","url":"d:\\Programming\\C++\\Prog\\6.Bitwise\\NoOf1s.cpp","tests":[{"id":1631116337798,"input":"7","output":"3"},{"id":1631117150224,"input":"5","output":"2"},{"id":1631117157356,"input":"19","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\6.Bitwise\\NoOf1s.cpp","group":"local","local":true}

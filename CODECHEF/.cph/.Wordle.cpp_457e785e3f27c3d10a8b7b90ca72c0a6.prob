@@ -1,0 +1,1 @@
+{"name":"Local: Wordle","url":"d:\\Programming\\C++\\Prog\\CODECHEF\\Wordle.cpp","tests":[{"id":1647078216784,"input":"3\nABCDE\nEDCBA\nROUND\nRINGS\nSTART\nSTUNT","output":"BBGBB\nGBBBB\nGGBBG"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\CODECHEF\\Wordle.cpp","group":"local","local":true}

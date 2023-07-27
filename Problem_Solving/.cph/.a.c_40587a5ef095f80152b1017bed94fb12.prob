@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"d:\\Programming\\C++\\Prog\\Problem_Solving\\a.c","tests":[{"id":1662731998771,"input":"8\n11101111\n2","output":"00000110"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming\\C++\\Prog\\Problem_Solving\\a.c","group":"local","local":true}

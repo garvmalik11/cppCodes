@@ -1,0 +1,1 @@
+{"name":"Local: hexadecimal_to_decimal","url":"e:\\Programming\\C++\\Prog\\FUNCTIONS\\conversions\\hexadecimal_to_decimal.cpp","tests":[{"id":1623661861933,"input":"1CF","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Programming\\C++\\Prog\\FUNCTIONS\\conversions\\hexadecimal_to_decimal.cpp","group":"local","local":true}

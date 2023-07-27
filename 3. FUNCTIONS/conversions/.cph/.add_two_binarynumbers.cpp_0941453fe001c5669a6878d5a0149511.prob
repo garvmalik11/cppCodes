@@ -1,0 +1,1 @@
+{"name":"Local: add_two_binarynumbers","url":"e:\\Programming\\C++\\Prog\\FUNCTIONS\\conversions\\add_two_binarynumbers.cpp","tests":[{"id":1623830182250,"input":"10101\n11010","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Programming\\C++\\Prog\\FUNCTIONS\\conversions\\add_two_binarynumbers.cpp","group":"local","local":true}

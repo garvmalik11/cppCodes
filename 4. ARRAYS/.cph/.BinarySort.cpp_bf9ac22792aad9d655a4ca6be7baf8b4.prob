@@ -1,0 +1,1 @@
+{"name":"Local: BinarySort","url":"e:\\Programming\\C++\\Prog\\4. ARRAYS\\BinarySort.cpp","tests":[{"id":1625380739516,"input":"5\n1 5 2 4 3","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Programming\\C++\\Prog\\4. ARRAYS\\BinarySort.cpp","group":"local","local":true}
