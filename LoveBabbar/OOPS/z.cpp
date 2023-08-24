@@ -11,16 +11,17 @@ class a{
 
 };
 
-class b : public  a{
+class b{
     public:
-    void speak(){
+    void bark(){
         cout << "speaking.."<<endl;
     }
 };
-class c : public a{
+
+class c : public a, public b{
     public:
-    void scream(){
-        cout << "chilllaaaa.."<<endl;
+    void hi(){
+        cout << "hi" << endl;
     }
 };
 
@@ -28,13 +29,10 @@ class c : public a{
 
 
 int main(){
-    b obj1;
-     c hi;
+    c obj1;
 
-    obj1.speak();
-    obj1.bark();
-    hi.scream();
-    hi.bark();
+    obj1.a::bark();
+    // obj1.b::bark();
 
    return 0;
 
