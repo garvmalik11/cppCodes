@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class Node{
     public:
     int data;
@@ -11,40 +10,60 @@ class Node{
         this->next = NULL;
     }
 
-    ~Node(){
-        int value = this->data;
-        if(this->next != NULL){
-            delete next;
-            next = NULL;
-        }
-        cout << "memory Is Now Free "<<endl;
-    }
+    // ~Node(){
+    //     int value = this->data;
+    //     if(this->next != NULL){
+    //         delete next;
+    //         next = NULL;
+    //     }
+    //     cout << "memory Is Now Free "<<endl;
+    // }
 };
 
-insertNode(Node* &tail,int element,int d){
+void insertNode(Node* &tail, int element,int d){
     if(tail == NULL){
         Node* newnode = new Node(d);
+        newnode->next = newnode;
         tail = newnode;
     }
     else{
-        Node* temp = new Node(d);
-        while(temp->data == element){
-            temp = temp-> next;
+        Node* curr = tail;
+        while(curr->data != element){
+            curr = curr->next;
         }
-        //aa gye curr pr
-        
-    }
 
+        Node* temp = new Node(d);
+        temp->next = curr->next;
+        curr->next = temp;        
+    }
 }
 
+void print(Node* tail){
+    Node* temp = tail;
+
+    do{
+        cout << temp->data << " ";
+        temp = temp->next;
+    }
+    while(temp != tail);
+    cout << endl;
+}
+
+
+
+
 int main(){
-    Node* node1 = new Node;
+    Node* tail = NULL;
 
-    Node* tail = node1;
+    insertNode(tail,1,2);
+    print(tail);
 
-    insertNode(tail,1, 2);
+    insertNode(tail,2,3);
+    print(tail);
 
+    insertNode(tail,3,4);
+    print(tail);
 
-
-    return 0;
+    insertNode(tail,4,5);
+    print(tail);
 }
