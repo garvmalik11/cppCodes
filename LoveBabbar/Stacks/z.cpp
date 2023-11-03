@@ -1,30 +1,30 @@
 #include<iostream>
 using namespace std;
 
-class Stack {
+class Stack{
     public:
-    int size;
     int top;
-    int *arr;
+    int* arr;
+    int size;
 
-    Stack(int size){
-        this -> size = size;
-        arr = new int[size];
+    Stack(int s){
+        this->size = s;
+        arr = new int[s];
         top = -1;
-    }     
+    }
 
-    void push(int data){
-        if(size - top > 1){
+    void push(int elem){    
+        if(size - top > 0){
             top++;
-            arr[top] = data;
+            arr[top] = elem;
         }
         else{
-            cout << " Stack Overflow " << endl;
+            cout <<"Underflow";
         }
-    }  
+    }
     void pop(){
         if(top == -1){
-            cout << "Stack UNderflow " << endl;
+            cout <<"Stack Underflow"<<endl;
         }
         else{
             top--;
@@ -32,41 +32,33 @@ class Stack {
     }
     int peek(){
         if(top == -1){
-            cout << "Stack UNderflow " << endl;
+            cout<<"Underflow"<<endl;
             return -1;
         }
-        else
+        else{
             return arr[top];
+        }
     }
-    
-    bool isempty(){
-        if(top == -1){
+    bool isEmpty(){
+        if(top = -1){
             return 1;
         }
         else{
             return 0;
         }
     }
+
 };
 
-
 int main(){
-    Stack st(5);
+    Stack s(5);
 
-    st.push(1);
-    st.push(2);
-    st.push(3);
-    st.push(4);
-    st.push(5);
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    s.push(5);
+    s.pop();
+    cout << s.peek() << endl;
+ 
 
-    cout << st.peek() << endl;
-
-    st.pop();
-    st.pop();
-    st.pop();
-    st.pop();
-    st.pop();
-    
-    cout << st.peek() << endl;
-    if(st.isempty()){cout<<"empty";}
 }

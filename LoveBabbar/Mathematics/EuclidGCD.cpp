@@ -16,6 +16,7 @@ int gcd(int a ,int b){
             b = b - a;
         }
     }
+    
     return a;
    
 }
