@@ -1,0 +1,1 @@
+{"name":"Local: temp","url":"d:\\Love Babbar 450\\LoveBabbar\\temp.cpp","tests":[{"id":1705569231662,"input":"2 \n0 0","output":"0"},{"id":1705573029205,"input":"5 \n1 1 0 0 1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Love Babbar 450\\LoveBabbar\\temp.cpp","group":"local","local":true}
